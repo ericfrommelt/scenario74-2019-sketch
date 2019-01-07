@@ -1,0 +1,11 @@
+.masthead {
+  font-size: 1rem;
+  font-family: Helvetica, sans-serif;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+a {
+  text-decoration: none;
+}

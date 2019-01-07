@@ -1,4 +1,5 @@
 import React from "react"
+import mastheadStyles from "./masthead.module.css"
 import { StaticQuery, Link, graphql } from "gatsby"
 
 export default ({ data }) => (
@@ -15,7 +16,7 @@ export default ({ data }) => (
   }
     render={data => (
       <Link to={`/`}>
-        <h1>{data.site.siteMetadata.title}</h1>
+        <h1 className={mastheadStyles.masthead}>{data.site.siteMetadata.title}</h1>
       </Link>
     )}
   />
