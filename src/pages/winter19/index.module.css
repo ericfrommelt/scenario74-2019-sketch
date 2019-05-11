@@ -1,0 +1,56 @@
+.threeByThree {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.grid-items {
+  min-height: 10rem;
+}
+
+.gridOne {
+  composes: grid-items;
+  background: hsla(358, 71%, 51%, 1);
+  /* background: #DB2B30; */
+}
+
+.gridTwo {
+  composes: grid-items;
+  background: hsla(352, 66%, 34%, 1);
+}
+
+.gridThree {
+  composes: grid-items;
+  background: hsla(341, 64%, 22%, 1);
+}
+
+.gridFour {
+  composes: grid-items;
+  background: hsla(326, 66%, 15%, 1);
+}
+
+.gridFive {
+  composes: grid-items;
+  background: hsla(262, 57%, 9%, 1);
+}
+
+.gridSix {
+  composes: grid-items;
+  background: rgb(34, 6, 16);
+}
+
+.gridSeven {
+  composes: grid-items;
+  background: hsla(358, 71%, 51%, 1);
+}
+
+.gridEight {
+  composes: grid-items;
+  background: hsla(262, 57%, 9%, 1);
+}
+
+.gridNine {
+  composes: grid-items;
+  background: rgb(116, 32, 57);
+}
