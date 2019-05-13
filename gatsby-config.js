@@ -8,12 +8,12 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        path: `${__dirname}/src/images`,
         name: `images`
-        path: path.join(__dirname, `src`, `images`),
       },
     },
-    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-react-helmet`
   ],
 }

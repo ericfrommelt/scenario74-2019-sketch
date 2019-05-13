@@ -1,0 +1,73 @@
+body {
+  background-color: pink;
+  background-image: url("../../../src/images/img_0509.jpg");
+  background-position: center;
+}
+
+.gridWrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.mainImg {
+  grid-column-start: 3;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 6;
+}
+
+input {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  color: black;
+}
+
+.inputA {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  justify-self: center;
+  align-self: center;
+  z-index: 10;
+}
+
+.inputB {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  justify-self: center;
+  align-self: end;
+  z-index: 10;
+  margin-bottom: 1rem;
+}
+
+.inputC {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  justify-self: center;
+  align-self: start;
+  z-index: 10;
+}
+
+.line {
+  grid-column-start: 3;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 7;
+  align-self: center;
+  z-index: 11;
+}
+
+.yesyesno {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: black;
+  grid-column-start: 5;
+  grid-column-end: 8;
+  grid-row-start: 7;
+  z-index: 12;
+}
