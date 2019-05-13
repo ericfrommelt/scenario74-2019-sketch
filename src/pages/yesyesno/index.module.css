@@ -20,7 +20,9 @@ body {
 }
 
 input {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B";
+  font-style: normal;
+  font-weight: 400;
   font-size: 1rem;
   color: black;
 }
@@ -63,7 +65,9 @@ input {
 }
 
 .yesyesno {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B";
+  font-style: normal;
+  font-weight: 400;
   font-size: 3rem;
   color: black;
   grid-column-start: 5;

@@ -1,11 +1,13 @@
 .masthead {
-  font-size: 1rem;
-  font-family: "Ringside Regular SSm A", "Ringside Regular SSm B";
+  font-size: 1.2rem;
+  font-family: "Ringside Compressed SSm A", "Ringside Compressed SSm B";
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   position: fixed;
   right: 2rem;
   bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: -0.01rem;
 }
 
 a {
