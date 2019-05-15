@@ -1,5 +1,6 @@
 import React from "react"
-import { graphql, Link } from "gatsby"
+import { graphql } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Img from "gatsby-image"
 import styles from "./index.module.css"
 import Layout from "../../components/layout"
@@ -9,7 +10,14 @@ const IndexPage = (props) => (
   <Layout>
     <div className={styles.container}>
       <div className={styles.gridWrapper}>
-        <h1 className={styles.falseTrueTrue}>False True <Link to="/yesyesno">True</Link></h1>
+        <h1 className={styles.falseTrueTrue}>False True 
+        <AniLink
+         cover 
+         to="/yesyesno" 
+         direction="left"
+         bg="#2A8B4B"
+        > True
+         </AniLink></h1>
         <p className={styles.txtOne}>It's happening.</p>
         <p className={styles.txtTwo}>No...really?</p>
         <p className={styles.txtThree}>Kind of? I think.</p>

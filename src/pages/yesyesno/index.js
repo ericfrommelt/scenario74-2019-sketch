@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
+import AniLink from "gatsby-plugin-transition-link/AniLink";
 import Img from "gatsby-image"
 import styles from "./index.module.css"
 import Layout from "../../components/layout"
@@ -8,7 +9,12 @@ const IndexPage = (props) => (
   <Layout>
     <div className={styles.container}>
       <div className={styles.gridWrapper}>
-        <h1 className={styles.yesyesno}>Yes Yes No</h1>
+        <h1 className={styles.yesyesno}>Yes Yes 
+        <AniLink
+          cover
+          to = "/falsetruetrue"
+          direction = "left"
+          bg="#999"> No</AniLink></h1>
         <div class={styles.mainImg}><Img fluid={props.data.imageOne.childImageSharp.fluid} /></div>
         <div className={styles.inputA}>
           <input type="text" id="name" name="name" placeholder="I don’t know when I’ll be back" size="26" />

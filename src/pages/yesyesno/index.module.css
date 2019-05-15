@@ -75,3 +75,7 @@ input {
   grid-row-start: 7;
   z-index: 12;
 }
+
+.yesyesno a {
+  color: #2A8B4B;
+}
